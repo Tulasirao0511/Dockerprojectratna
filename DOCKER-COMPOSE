@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  image:
+    image: ratna22/myimage:latest
+    ports:
+      - "86:80"
+    deploy:
+      replicas: 3
+
